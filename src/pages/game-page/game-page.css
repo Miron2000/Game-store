@@ -1,0 +1,26 @@
+.game-page__title {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.game-page__content {
+  display: flex;
+}
+
+.game-page__left {
+  width: 70%;
+}
+
+.game-page__right {
+  width: 30%;
+}
+
+.secondary-text {
+  color: rgb(80, 82, 84);
+  font-family: 'Grape Nuts', cursive;
+}
+
+.game-page__buy-game {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}

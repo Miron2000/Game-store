@@ -1,0 +1,29 @@
+.order-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.order-item__cover {
+  width: 300px;
+  margin-right: 30px;
+}
+
+.order-item__title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.order-item__price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: auto;
+  font-family: 'Koulen', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cart-item__delete-icon {
+  cursor: pointer;
+}
