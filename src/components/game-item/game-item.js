@@ -1,14 +1,14 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom';
-import { useDispatch } from "react-redux";
+import {useNavigate} from 'react-router-dom';
+import {useDispatch} from "react-redux";
 
 import "./game-item.css";
 import {setCurrentGame} from "../../redux/games/reducer";
-import { GameCover } from "../game-cover";
-import { GameBuy } from "../game-buy";
-import { GameGenre } from "../game-genre";
+import {GameCover} from "../game-cover";
+import {GameBuy} from "../game-buy";
+import {GameGenre} from "../game-genre";
 
-export const GameItem = ({ game }) => {
+export const GameItem = ({game}) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 

@@ -7,12 +7,12 @@
   border-radius: 15px;
   cursor: pointer;
   position: relative;
-  transition: 0.2s;
+  overflow: hidden;
 }
 
-.game-item:hover {
+.game-item:hover .game-cover{
   cursor: pointer;
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .game-item:not(:last-child) {
@@ -44,7 +44,7 @@
 
 .game-item__buy {
   position: absolute;
-  right: 0;
-  bottom: -12px;
+  right: 6px;
+  bottom: 6px;
   font-family: 'Koulen', cursive;
 }
