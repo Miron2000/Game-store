@@ -7,6 +7,12 @@
   border-radius: 15px;
   cursor: pointer;
   position: relative;
+  transition: 0.2s;
+}
+
+.game-item:hover {
+  cursor: pointer;
+  transform: scale(1.15);
 }
 
 .game-item:not(:last-child) {

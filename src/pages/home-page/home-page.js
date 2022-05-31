@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./home-page.css";
 import { GameItem } from "../../components/game-item";
 

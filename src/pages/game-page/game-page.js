@@ -6,7 +6,6 @@ import { GameCover } from "../../components/game-cover"
 import { GameGenre } from "../../components/game-genre";
 import { GameBuy } from "../../components/game-buy";
 
-
 export const GamePage = () => {
   const game = useSelector(state => state.game.currentGames);
   if(!game) return null;
